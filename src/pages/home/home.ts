@@ -15,7 +15,7 @@ export class HomePage {
 
   constructor(public sanitizer: DomSanitizer) {
     var data = require('../../assets/json/url.json');
-    this.url = data[0]["webUrl"];
+    this.url = data[0]["webUrl"]; 
     this.urlSafe= this.sanitizer.bypassSecurityTrustResourceUrl(this.url);
   }
   
