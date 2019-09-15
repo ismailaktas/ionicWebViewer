@@ -6,7 +6,7 @@ import {DomSanitizer, SafeResourceUrl,} from '@angular/platform-browser';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+ 
   @Input()
   id:string; 
   url: string = "";
